@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.dmorales.lastlocation.MainActivity">
+
+    <TextView android:id="@+id/lblLatitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LATITUD" />
+
+    <TextView android:id="@+id/lblLongitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LONGITUD" />
+
+    <ToggleButton android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="parar actualizaciones"
+        android:textOff="iniciar actualizaciones" />
+
+</LinearLayout>
